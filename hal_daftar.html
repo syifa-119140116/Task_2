@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Halaman Pendaftaran</title>
+        <style>
+            body{background-color: azure;}
+            h1{text-align: center; color: floralwhite; background-color: cadetblue; font-family:century gothic;}
+            td{padding: 1% 1% 1% 1%; width: 1%;}
+            table{margin: 1% 1% 1% 1%; background-color:rgb(186, 221, 221); }
+            input{border: none; border-bottom: 2px solid cadetblue; background-color:rgb(186, 221, 221);}
+        </style>
+    </head>
+
+    <body>
+        <h1>Form Pendaftaran</h1><br>
+        <div>
+            <form method="POST" action="hal_informasi.html">
+                <table>
+                    <tr><td>Foto</td><td><input type="file"/></td></tr>
+                    <tr><td>Curriculum Vitae</td><td><input type="file"/></td></tr>
+                    <tr><td>Nama Lengkap</td><td><input type="text"/></td></tr>
+                    <tr><td>E-mail</td><td><input type="email"/></td></tr>
+                    <tr><td>Nomor telepon</td><td><input type="tel"></td></tr>
+                    <tr><td>Jenis Kelamin</td><td><input type="radio" name="JK" value="JK1"> Laki-laki <input type="radio" name="JK" value="JK2"> Perempuan</td></tr>
+                    <tr><td>Alamat</td><td><input type="text"></td></tr>
+                </table><br>
+                <button type="submit" style="width :100%; margin-top: 3%; padding: 1% 1% 1% 1%; background-color:cadetblue; color: floralwhite; font-family:Arial, Helvetica, sans-serif; font-size: larger;">Simpan</button>
+            </form>
+        </div>
+    </body>
+</html>
